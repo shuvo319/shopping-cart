@@ -24,6 +24,7 @@ const Cart = (props) => {
             <h1 className='font-bold'>Order Summary</h1>
             <h4>Order Summary: {props.cart.length}</h4>
             <p>Shipping cost: ${shipping}</p>
+            <p className='text-violet-900 font-semibold'>Free Shipping Enjoy at $700</p>
             <p className='text-red-700 font-bold'>Total: ${totalPrice}</p>
         </div>
     );

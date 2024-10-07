@@ -23,7 +23,7 @@ const Shop = () => {
                 }
             </div>
 
-            <div className='w-1/4 fixed top-30 right-20' >
+            <div className='w-1/4 fixed top-30 right-10' >
                 <Cart cart={cart}></Cart>
             </div>
 
