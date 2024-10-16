@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='sticky top-0'>
             <div className="bg-black flex justify-center items-center py-3">
-                <img src={logo} alt="" />
+                <a href="/"><img src={logo} alt="" /></a>
             </div>
 
             <div>
